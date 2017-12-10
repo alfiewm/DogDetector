@@ -14,9 +14,4 @@ class App : Application() {
             Timber.plant(Timber.DebugTree())
         }
     }
-
-    companion object {
-        val PREFS_NAME = "NotHotDogPrefs"
-        val AUTH_TOKEN_KEY = "AuthToken"
-    }
 }
